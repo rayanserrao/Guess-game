@@ -16,8 +16,8 @@ def guesnum(a,b,num):
 
 if __name__ == "__main__":
 
-    a=int(input(" Player 1 ,enter the number \n"))
-    b=int(input("Palyer 2 , enter the number \n"))
+    a=int(input("Player 1, enter the number \n"))
+    b=int(input("Palyer 2, enter the number \n"))
     actualnum1=random.randint(a,b)
     print("Player 1's turn \n")
     p1=guesnum(a,b,actualnum1)
